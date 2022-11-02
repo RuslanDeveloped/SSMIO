@@ -1,0 +1,985 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+
+  color: #333;
+
+  margin: 0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1366px;
+
+  margin: 0 auto;
+}
+
+/*============================================================================HEADER*/
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header_menu {
+  margin-top: 87px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo img {
+  position: absolute;
+  top: -36px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__logo {
+  position: relative;
+}
+
+.nav {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.nav_link {
+  margin: 0 25px;
+
+  color: #2D2D2D;
+;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: 0.2s linear;
+}
+
+.nav_link:hover {
+  color: #333;
+}
+
+.number {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: 25px;
+
+  color: #fff;
+}
+
+/*============================================================================GROUP*/
+
+.GROUP {
+  width: 100%;
+  height: 900px;
+
+  background: url("") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  position: relative;
+  padding-top: 225px;
+}
+
+.intro__text {
+  color: #fff;
+
+}
+
+.uptext {
+  font-size: 35px;
+  font-weight: 900;
+  text-shadow: 5px 22px 28px #2D2D2D;
+
+  margin-bottom: 18px;
+
+  color: #2D2D2D;
+
+}
+
+.downtext p {
+  font-size: 25px;
+  font-weight: 300;
+  color: #2D2D2D;
+
+  margin: 0;
+  text-shadow: 5px 22px 15px #2D2D2D;
+}
+
+.block-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-right input {
+  width: 305px;
+  height: 68px;
+
+  font-size: 15px;
+  font-weight: 400;
+
+  margin: 15px 0 18px 0;
+
+  border: 1px solid #fff;
+}
+
+.butn {
+  padding: 18px 87px;
+  color: #000;
+
+  cursor: pointer;
+
+  border: 1px solid #fff;
+
+  font-size: 17px;
+  font-weight: 300;
+
+  text-transform: uppercase;
+  background-color: #fff;
+}
+
+/*=============================================================================GROUP__2*/
+
+.GROUP__2 {
+  background: #fff;
+}
+
+.head__text {
+  padding: 110px 0 15px 0;
+
+  color: #2F2F2F;
+  font-size: 30px;
+  font-weight: 800;
+
+  text-align: center;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  padding-top: 140px;
+}
+
+.jobs__one {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.jobs__two {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.jobs__inner {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.jobs__inner p{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*==============================================================================GROUP__3*/
+
+.GRPOUP__3 {
+
+}
+
+.service {
+  margin-top: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service__inner {
+  margin-right: 55px;
+}
+
+.service__inner:last-child {
+  margin-right: 0;
+}
+
+.service__text p {
+  font-size: 20px;
+  font-weight: 700;
+
+  color: #2F2F2F;
+
+  margin: 0;
+}
+
+/*=============================================================================GROUP5*/
+
+.GROUP_4 {
+
+}
+
+.head__text__two {
+  padding: 110px 0 15px 0;
+
+  font-size: 30px;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  position: relative;
+}
+
+.case {
+  padding: 85px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.case__inner {
+  margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.case__text p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+/*============================================================================GROUP__5*/
+.GROUP__5 {
+  background: #EFEFEF;
+}
+
+.case__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.case {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.case__img {
+  display: flex;
+
+}
+/*============================================================================GROUP__6*/
+.group__6 {
+  background: url("") center no-repeat;
+  background-size: cover;
+}
+
+.text {
+  padding: 111px 130px 1px 127px;
+  border-radius: 40px;
+
+  background-color: #D9D9D9;;
+  color: #2F2F2F;
+
+  text-align: center;
+}
+
+.text_slide {
+  position: relative;
+  padding: 50px 230px 181px 230px;;
+}
+
+.text p {
+  margin: 50px 0 86px 0;
+  color: #2F2F2F;
+  font-weight: 500;
+}
+
+.prev {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  z-index: 1;
+}
+
+.next {
+  position: absolute;
+  top: 180px;
+  right: 80px;
+  z-index: 1;
+}
+/*===============================================================================*/
+.podval {
+  background: #D9D9D9;
+  padding: 43px 0;
+}
+
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.podval__logo {
+  position: relative;
+}
+
+.podval__inner {
+  color: #414141;
+
+  margin: 79px 0 0;
+}
+
+.podval__inner p {
+  font-size: 17px;
+}
+
+.podval__contact {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 31px 20px;
+  background-color: #D9D9D9;
+  border: 1px solid #5B5B5B;
+}
+
+.podval__contact input {
+  width: 318.8px;
+  height: 60.02px;
+  margin: 15px 0 18px 0;
+}
+
+.podval__contact h4{
+  font-size: 22.71px;
+  font-weight: 700;
+  color: #414141;
+  margin: 0;
+  text-align: center;
+}
+
+.butn__foot {
+  padding: 18px 100px;
+  color: #414141;
+
+  cursor: pointer;
+
+  border: 1px solid #2D2D2D;
+  border-radius: 8px;
+
+  font-size: 19.43px;
+  font-weight: 300;
+
+  text-transform: uppercase;
+  background-color: #2D2D2D;
+}
+
+.adress h4 {
+  color: #414141;
+
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.adress a {
+  color: #414141;
+
+  text-decoration: none;
+
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.contacts {
+position: relative;
+padding:0 50px;
+}
+
+.contacts h4{
+  color: #414141;
+
+  margin: 0 0 12px 0;
+
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contacts p {
+  color: #414141;
+
+  margin: 15px 0;
+
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.phone {
+  position: absolute;
+  left: 13px;
+  top: 34px;
+}
+
+.letter {
+  position: absolute;
+  top: 69px;
+  left: 7px;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+  position: absolute;
+  left: 13px;
+}
+
+.img img {
+  padding-right: 20px;
+}
+
+/*=============================================================================ADAPRIV*/
+
+@media (max-width:750px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 12px;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .ourcar {
+    padding: 10px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 0;
+  }
+
+  .arenda__inner {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .text__content {
+    font-size: 25px;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .content__inner img{
+    width: 50%;
+  }
+
+  .service__inner img {
+    width: 50%;
+  }
+
+  .button {
+     padding: 14px 28px;
+   }
+
+   .partner1 img {
+     width: 10%;
+   }
+
+   .partner2 img {
+     width: 10%;
+   }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+  }
+
+  .send {
+    padding: 17px 10px;
+    margin: 10px 0 0;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start
+}
+
+  .text {
+    padding: 50px 50px 3px 50px;
+    font-size: 13px;
+  }
+
+  .footer__flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+  .podval__contact {
+    padding: 17px 215px 20px;
+  }
+
+  .adress {
+    margin-top: 25px;
+  }
+
+  .contacts {
+    margin-top: 25px;
+    position: relative;
+    padding: 0 50px;
+}
+
+}
+
+
+@media (max-width:992px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 12px;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .ourcar {
+    padding: 10px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+  }
+
+  .arenda__inner {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .service__inner img {
+    width: 75%;
+  }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+  }
+
+  .send {
+    padding: 17px 10px;
+  }
+
+  .text {
+  padding: 50px 50px 3px 50px;
+  font-size: 10px;
+  }
+}
+
+@media (max-width:1050px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 12px;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .ourcar {
+    padding: 10px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+  }
+
+  .arenda__inner {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .service__inner img {
+    width: 75%;
+  }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+  }
+
+  .send {
+    padding: 17px 10px;
+  }
+
+  .text {
+  padding: 50px 50px 3px 50px;
+  font-size: 10px;
+  }
+}
+
+@media (max-width:1230px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 15px;
+  }
+
+  .nav {
+    font-size: 15px;
+  }
+
+  .ourcar {
+    padding: 10px 25px 50px 25px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .arenda__car img {
+    width: 85%
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+  }
+
+  .arenda__inner {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .service__inner img {
+    width: 75%;
+  }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+  }
+
+  .send {
+    padding: 17px 10px;
+  }
+
+  .text {
+  padding: 60px 50px 3px 50px;
+  font-size: 15px;
+  }
+}
+
+@media (max-width:1300px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 12px;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .ourcar {
+    padding: 10px 25px 50px 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .arenda__car img {
+    width: 90%
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+  }
+
+  .arenda__inner {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .service__inner img {
+    width: 75%;
+  }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+  }
+
+  .send {
+    padding: 17px 10px;
+  }
+
+  .text {
+    padding: 73px 0 35px 0;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:1438px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 15px;
+  }
+
+  .nav {
+    font-size: 15px;
+  }
+
+  .ourcar {
+    padding: 10px 25px 50px 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .arenda__car img {
+    width: 90%
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+  }
+
+  .arenda__inner {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .service__inner img {
+    width: 75%;
+  }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+  }
+
+  .send {
+    padding: 17px 10px;
+  }
+
+  .text {
+    padding: 73px 0 35px 0;
+    font-size: 15px;
+  }
+}
