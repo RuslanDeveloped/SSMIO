@@ -67,6 +67,8 @@ body {
 
 .nav_link:hover {
   color: #FF9A03;
+
+  border-bottom: 1px solid #FF9A03;
 }
 
 .number {
@@ -211,7 +213,7 @@ body {
 /*==============================================================================GROUP__3*/
 
 .GRPOUP__3 {
-
+ background: #EFEFEF;
 }
 
 .service {
@@ -257,20 +259,20 @@ body {
   position: relative;
 }
 
-.case {
-  padding: 85px 0;
+.ourteam {
+  padding: 85px 0 100px 0;
   display: flex;
   flex-direction: column;
 }
 
-.case__inner {
+.team {
   margin-top: 36px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.case__text p {
+.team__text p {
   font-size: 20px;
   font-weight: 400;
   margin: 0;
@@ -284,6 +286,8 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: 800;
+
+  padding: 40px 0 90px 0;
 }
 
 .case {
@@ -294,7 +298,10 @@ body {
 
 .case__img {
   display: flex;
-
+}
+.case__img:last-child {
+  display: flex;
+  padding-bottom: 110px;
 }
 /*============================================================================GROUP__6*/
 .group__6 {
@@ -373,6 +380,7 @@ body {
   width: 318.8px;
   height: 60.02px;
   margin: 15px 0 18px 0;
+  border: none;
 }
 
 .podval__contact h4{
@@ -389,14 +397,13 @@ body {
 
   cursor: pointer;
 
-  border: 1px solid #2D2D2D;
-  border-radius: 8px;
+  border: 1px solid #fff;
 
-  font-size: 19.43px;
+  font-size: 18px;
   font-weight: 300;
 
   text-transform: uppercase;
-  background-color: #2D2D2D;
+  background-color: #fff;
 }
 
 .adress h4 {
@@ -465,133 +472,3 @@ padding:0 50px;
 .img img {
   padding-right: 20px;
 }
-
-/*=============================================================================ADAPRIV*/
-
-@media (max-width:750px) {
-  .container {
-    width: 100%;
-  }
-
-  .header__logo img {
-    position: absolute;
-    top: -34px;
-    right: 0;
-    z-index: 1;
- }
-
-  .header_menu {
-    padding: 0 50px;
-  }
-
-  .number {
-    font-size: 12px;
-  }
-
-  .nav {
-    font-size: 12px;
-  }
-
-  .ourcar {
-    padding: 10px 0 50px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .car__content {
-    margin-top: 50px;
-    width: 40%;
-    margin-left: 0;
-  }
-
-  .arenda__inner {
-    font-size: 9px;
-    font-weight: 300;
-  }
-
-  .text__content {
-    font-size: 25px;
-  }
-
-  .content__inner {
-    padding: 80px 0 0;
-  }
-
-  .content__inner img{
-    width: 50%;
-  }
-
-  .service__inner img {
-    width: 50%;
-  }
-
-  .button {
-     padding: 14px 28px;
-   }
-
-   .partner1 img {
-     width: 10%;
-   }
-
-   .partner2 img {
-     width: 10%;
-   }
-
-  .service__text {
-    padding-top: 33px;
-  }
-
-  .border2 {
-    position: absolute;
-    right: 0;
-    z-index: 1;
-  }
-
-  .input {
-    display: flex;
-  }
-
-  .input input {
-    padding: 17px 0;
-  }
-
-  .send {
-    padding: 17px 10px;
-    margin: 10px 0 0;
-  }
-
-  .contact {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: flex-start
-}
-
-  .text {
-    padding: 50px 50px 3px 50px;
-    font-size: 13px;
-  }
-
-  .footer__flex {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-  .podval__contact {
-    padding: 17px 215px 20px;
-  }
-
-  .adress {
-    margin-top: 25px;
-  }
-
-  .contacts {
-    margin-top: 25px;
-    position: relative;
-    padding: 0 50px;
-}
-
-}
-
